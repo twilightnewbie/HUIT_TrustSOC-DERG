@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific
+data/
+artifacts/models/
+artifacts/predictions/
+artifacts/logs/
+artifacts/figures/
+artifacts/xai/
+artifacts/deep_analysis/
+artifacts/practical_experiments/
+artifacts/metrics/training_history_*.csv
+artifacts/metrics/metrics_trustsoc_derg_*.json
+artifacts/metrics/baseline_metrics.json
+artifacts/metrics/metrics_summary.json
+artifacts/metrics/metrics.json
+artifacts/metrics/calibration_metrics.json
+*.pkl
+*.pt
+*.zip
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,7 @@
+Model_A,Model_B,McNemar_Stat,p_value,Sig_005,Sig_001,Risk_Cohens_d
+trustsoc_derg,trustsoc_derg_missing_cti,2.414285714285714,0.12023280053681162,False,False,0.005418176454400348
+trustsoc_derg,trustsoc_derg_missing_mitre,2.6133333333333333,0.10596880912720208,False,False,-0.002789472131012488
+trustsoc_derg,trustsoc_derg_noisy_evidence,0.06153846153846154,0.8040806574719614,False,False,-0.005338544594445726
+trustsoc_derg_missing_cti,trustsoc_derg_missing_mitre,0.0,1.0,False,False,-0.008212394144302039
+trustsoc_derg_missing_cti,trustsoc_derg_noisy_evidence,1.5384615384615385,0.2148469474056489,False,False,-0.010761822189372501
+trustsoc_derg_missing_mitre,trustsoc_derg_noisy_evidence,2.5208333333333335,0.11235119769046409,False,False,-0.002551118438498023

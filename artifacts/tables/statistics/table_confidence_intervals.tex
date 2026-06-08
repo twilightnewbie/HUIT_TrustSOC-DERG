@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Performance metrics with 95\% bootstrap confidence intervals.}
+\label{tab:confidence_intervals}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Macro F1} & \textbf{Weighted F1} & \textbf{MAE} \\
+\midrule
+trustsoc_derg & 0.9782 (0.9726–0.9833) & 0.8995 (0.8724–0.9228) & 0.9805 (0.9753–0.9849) & 0.3401 (0.2691–0.4127) \\
+trustsoc_derg_missing_cti & 0.9733 (0.9674–0.9785) & 0.9487 (0.9212–0.9687) & 0.9734 (0.9677–0.9786) & 0.4676 (0.3887–0.5486) \\
+trustsoc_derg_missing_mitre & 0.9730 (0.9674–0.9785) & 0.9155 (0.8776–0.9469) & 0.9728 (0.9669–0.9783) & 0.3820 (0.3072–0.4616) \\
+trustsoc_derg_noisy_evidence & 0.9772 (0.9715–0.9823) & 0.9023 (0.8485–0.9511) & 0.9772 (0.9715–0.9825) & 0.4488 (0.3581–0.5387) \\
+\bottomrule
+\end{tabular}
+\end{table}

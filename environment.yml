@@ -1,0 +1,20 @@
+name: trustsoc-research
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - networkx
+  - matplotlib
+  - seaborn
+  - psutil
+  - shap
+  - pytorch
+  - cpuonly
+  - ipykernel
+  - notebook
+  - pip

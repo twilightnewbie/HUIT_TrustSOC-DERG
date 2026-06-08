@@ -1,0 +1,5 @@
+subset,trustsoc_derg_f1,trustsoc_derg_refusal_accuracy
+adversarial,0.9383271450105338,0.0
+missing_cti,0.9516198881762692,0.0
+missing_mitre,0.9208370758372124,0.0
+noisy_evidence,0.9068610253405781,0.0

@@ -1,0 +1,30 @@
+{
+  "adversarial": {
+    "trustsoc_derg": {
+      "threat_f1_macro": 0.9383271450105338,
+      "weighted_f1": 0.9178867328468372,
+      "refusal_accuracy": 0.0
+    }
+  },
+  "missing_cti": {
+    "trustsoc_derg": {
+      "threat_f1_macro": 0.9516198881762692,
+      "weighted_f1": 0.9733793311116725,
+      "refusal_accuracy": 0.0
+    }
+  },
+  "missing_mitre": {
+    "trustsoc_derg": {
+      "threat_f1_macro": 0.9208370758372124,
+      "weighted_f1": 0.972617729080199,
+      "refusal_accuracy": 0.0
+    }
+  },
+  "noisy_evidence": {
+    "trustsoc_derg": {
+      "threat_f1_macro": 0.9068610253405781,
+      "weighted_f1": 0.9769643746287444,
+      "refusal_accuracy": 0.0
+    }
+  }
+}
