@@ -140,49 +140,6 @@ python scripts/run_full_analysis.py
 
 All paths are auto-detected relative to the project root. To override:
 
-```powershell
-# Set custom dataset location
-$env:TRUSTSOC_DATASET_ROOT = "C:\path\to\your\dataset"
-$env:TRUSTSOC_SOURCE_ROOT = "C:\path\to\trustsoc\data"
-python main.py --mode preprocess
-```
-
-## Results
-
-Results are generated locally and stored in:
-
-- `artifacts/models/` — trained model bundles
-- `artifacts/metrics/` — JSON metrics with bootstrap CIs
-- `artifacts/predictions/` — per-sample predictions
-- `artifacts/figures/` — publication-quality figures
-- `artifacts/tables/` — CSV and LaTeX tables
-- `artifacts/reports/` — case studies and summaries
-
-- `artifacts/xai/` â€” SHAP, attention rollout, integrated gradients, LIME, and probing artifacts
-- `artifacts/deep_analysis/` â€” subgroup calibration, MC-dropout, counterfactual, error decomposition, and behavioral testing artifacts
-
-- `artifacts/figures/models/` â€” per-model training and evaluation figures
-- `artifacts/figures/comparison/` â€” benchmark and paper comparison figures
-- `artifacts/figures/robustness/` â€” robustness and adversarial behavior figures
-- `artifacts/figures/concepts/` â€” pipeline and DERG concept visuals
-- `artifacts/tables/benchmark/` â€” benchmark, dataset, calibration, and efficiency tables
-- `artifacts/tables/analysis/` â€” robustness and error-analysis tables
-- `artifacts/tables/statistics/` â€” confidence intervals and pairwise significance tables
-- `artifacts/reports/summary/` â€” consolidated paper-facing summaries
-- `artifacts/practical_experiments/` â€” operational triage, workload, source-shift, and case-study artifacts
-
-## New Modules
-
-| Module | Purpose |
-|---|---|
-| `src/supporting_analysis/statistical_testing.py` | Bootstrap CIs, McNemar's test, Friedman test |
-| `src/supporting_analysis/explainability.py` | SHAP, evidence attribution, counterfactual analysis |
-| `src/supporting_analysis/xai_analysis.py` | SHAP, attention rollout, integrated gradients, LIME, and representation probing |
-| `src/supporting_analysis/deep_analysis.py` | Subgroup calibration, MC-dropout uncertainty, counterfactual search, error decomposition, and behavioral tests |
-| `src/supporting_analysis/practical_experiments.py` | Real-world triage, source-shift audit, workload simulation, and case-study generation |
-| `src/supporting_analysis/temporal_analysis.py` | CTI freshness scoring, temporal trust adjustment |
-| `src/supporting_analysis/latex_export.py` | Publication-ready LaTeX tables |
-| `src/supporting_analysis/case_study.py` | Representative case selection and analysis |
 
 ## Limitations
 
@@ -200,3 +157,5 @@ Results are generated locally and stored in:
 ## Citation
 
 Citation placeholder for the future paper.
+------
+Copyright: To Duy Tai
